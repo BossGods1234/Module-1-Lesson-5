@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Input tabs
 
     </title>
 </head>
+
 <body>
     <h1>Forms</h1>
     <form>
-        <label>
-            Username,
-        </label>
-        <input type="text">
-        <br>
-        <label>
-            Age=
-        </label>
-        <input type="Number">
-        <br>
-        <label>
-            Password
-        </label>
-        <input type="password">
+        <fieldset>
+            <Legend>User details</Legend>
+            <label>
+                Username,
+            </label>
+            <input type="text">
+            <br>
+            <label>
+                Age=
+            </label>
+            <input type="Number">
+            <br>
+            <label>
+                Password
+            </label>
+            <input type="password">
+            <br>
+            <label>date of birth</label>
+            <input type="date">
+            <br>
+            <label>Gender</label>
+            <input type="radio" id="Female" name="Gender">Female
+            <input type="radio" id="Male" name="Gender">Male
+            <br>
+            <label>Favorite cities</label>
+            <input type="checkbox" id="Paris" name="City">Paris
+            <input type="checkbox" id="France" name="City">France
+            <input type="checkbox" id="Brampton" name="City">Brampton
+            <input type="checkbox" id="Oakvile" name="City">Oakvile
+            <br>
+            <label>subject</label>
+            <select name="subject" id="subject">
+                <option value="Math">Math</option>
+                <option value="English">English</option>
+                <option value="French">French</option>
+                <option value="Art">Art</option>
+            </select>
+            <br>
+            <input type="submit">
+            </fieldset>
     </form>
 </body>
+
 </html>
